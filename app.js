@@ -22,7 +22,7 @@ app.use("/uploads", express.static("uploads"));
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: process.env.CLIENT_URL,
+    origin: "https://stunning-eclair-1b08d4.netlify.app/",
 }));
 
 
